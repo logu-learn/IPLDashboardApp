@@ -1,4 +1,3 @@
-// Write your code here
 import {Component} from 'react'
 import Loader from 'react-loader-spinner'
 
@@ -38,16 +37,18 @@ class Home extends Component {
 
     return (
       <ul className="teams-list">
-        {teamsData.map(team => (
-          <TeamCard teamDetails={team} key={team.id} />
+        {teamsData.map(each => (
+          <TeamCard teamDetails={each} key={each.id} />
         ))}
       </ul>
     )
   }
 
   renderLoader = () => (
-    <div testid="loader" className="loader-container">
-      <Loader type="Oval" color="#ffffff" height={50} />
+    <div className="loader-container">
+      <div data-testid="loader">
+        <Loader type="Oval" color="#ffffff" height={50} width={50} />
+      </div>
     </div>
   )
 
@@ -55,7 +56,7 @@ class Home extends Component {
     const {isLoading} = this.state
 
     return (
-      <div className="home-route-container">
+      <div className="home-route-container" testid="loader">
         <div className="teams-list-container">
           <div className="ipl-dashboard-heading-container">
             <img

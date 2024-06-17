@@ -1,11 +1,10 @@
-/* Write your CSS here */
 .latest-match-container {
   margin-top: 24px;
 }
 
 .latest-match-heading {
   color: #ffffff;
-  font-family: 'Bree Serif';
+  font-family: "Bree Serif";
   font-size: 16px;
   display: block;
 }
@@ -65,7 +64,7 @@
 
 .latest-match-team-name {
   color: #ffffff;
-  font-family: 'Bree Serif';
+  font-family: "Bree Serif";
   font-size: 20px;
 }
 
@@ -77,7 +76,7 @@
 
 .latest-match-date {
   color: #ffffff;
-  font-family: 'Bree Serif';
+  font-family: "Bree Serif";
   font-size: 18px;
 }
 
@@ -89,7 +88,7 @@
 
 .match-details {
   color: #ffffff;
-  font-family: 'Bree Serif';
+  font-family: "Bree Serif";
   font-size: 12px;
 }
 
@@ -106,7 +105,7 @@
 @media screen and (min-width: 768px) {
   .latest-match-team-logo {
     max-width: 200px;
-    max-height: 200px;
+    max-width: 200px;
   }
 }
 
@@ -138,7 +137,7 @@
 
 .latest-match-details-label {
   color: #ffffff;
-  font-family: 'Bree Serif';
+  font-family: "Bree Serif";
   font-size: 14px;
 }
 
@@ -150,7 +149,7 @@
 
 .latest-match-details-value {
   color: #ffffff;
-  font-family: 'Bree Serif';
+  font-family: "Bree Serif";
   font-size: 12px;
 }
 

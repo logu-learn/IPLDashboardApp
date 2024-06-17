@@ -1,4 +1,5 @@
-// Write your code here
+import './index.css'
+
 const LatestMatch = props => {
   const {latestMatchData} = props
   const {

@@ -1,5 +1,4 @@
-/* Write your CSS here */
-.match-item {
+.match-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +13,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .match-item {
+  .match-card {
     width: 30%;
     padding: 24px;
     margin-bottom: 32px;
@@ -32,10 +31,11 @@
     height: 150px;
   }
 }
+
 .competing-team-name {
   text-align: center;
   color: #ffffff;
-  font-family: 'Bree Serif';
+  font-family: "Bree Serif";
   font-size: 16px;
   flex-grow: 1;
 }
@@ -49,7 +49,7 @@
 .result {
   text-align: center;
   color: #ffffff;
-  font-family: 'Bree Serif';
+  font-family: "Bree Serif";
   font-size: 10px;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .match-status {
-  font-family: 'Bree Serif';
+  font-family: "Bree Serif";
   font-size: 14px;
 }
 
